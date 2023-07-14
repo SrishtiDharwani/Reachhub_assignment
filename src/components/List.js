@@ -18,10 +18,14 @@ const List = () => {
   ];
 
   return (
-    <div style={{
-      display: "flex", flexDirection:"column",alignItems:"center"
-    }}>
-    <h1>List</h1>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
+      <h1>List</h1>
       <Card items={items} />
     </div>
   );
